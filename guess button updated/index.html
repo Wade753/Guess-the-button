@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Guess button</title>
+        <script src="main.js" defer></script>
+    </head>
+    <body onload="start()">
+        <header>
+            <h1>Guess the button</h1>
+        </header>
+        <main>
+            <p>You have n buttons, choose the right one.</p>
+            <p>Let the game begin!</p>
+            <div id="inputDiv">
+                <label for="numberOfButtons">Insert the number of buttons</label>
+                <input type="number" name="numberOfButtons" id="numberOfButtons">
+                <button onclick="startNewGame()">Start a new game</button>
+            </div>
+            <div id="buttons">
+            </div>
+            <div id="messageButtons"></div>
+        </main>
+    </body>
+</html>

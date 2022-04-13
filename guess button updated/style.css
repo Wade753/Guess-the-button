@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template: "header header header"
+                    "nav bdy bdy"
+                    "nav bdy bdy";
+}
+
+header {
+    grid-area: header;
+}
+
+.lost {
+    color: rgb(148, 41, 41);
+}
+
+.win {
+    color: rgb(66, 197, 66);
+}
+
+#inputDiv {
+    padding-bottom: 25px;
+}
+
+h1 {
+    color:rgb(11, 11, 248);
+    font-style: italic;
+}
